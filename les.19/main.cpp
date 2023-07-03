@@ -7,6 +7,8 @@
 
 #include "Chicken.h"
 #include "Duck.h"
+#include "Parrot.h"
+#include "Penguin.h"
 
 using namespace std;
 
@@ -22,6 +24,18 @@ int main() {
 
 	Duck duck;
 	b = &duck;
+	b->show();
+
+	cout << endl;
+
+	Parrot par;
+	b = &par;
+	b->show();
+
+	cout << endl;
+
+	Penguin peng;
+	b = &peng;
 	b->show();
 
 	return 0;

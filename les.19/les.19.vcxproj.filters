@@ -33,6 +33,12 @@
     <ClCompile Include="Duck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Parrot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Penguin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IBirds.h">
@@ -48,6 +54,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Duck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parrot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Penguin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

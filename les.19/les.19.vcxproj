@@ -133,6 +133,8 @@
     <ClCompile Include="IFlyingBirds.cpp" />
     <ClCompile Include="ISwimmingBirds.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parrot.cpp" />
+    <ClCompile Include="Penguin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chicken.h" />
@@ -140,6 +142,8 @@
     <ClInclude Include="IBirds.h" />
     <ClInclude Include="IFlyingBirds.h" />
     <ClInclude Include="ISwimmingBirds.h" />
+    <ClInclude Include="Parrot.h" />
+    <ClInclude Include="Penguin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
